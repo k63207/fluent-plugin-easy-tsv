@@ -7,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.authors = ["TODO: Write your name"]
   spec.email   = ["TODO: Write your email"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{It is easy to use TSV formatter.}
+  spec.description   = %q{You do not need to specify keys parameter.}
+  spec.homepage      = "https://github.com/k63207/fluent-plugin-easy-tsv/blob/master/fluent-plugin-easy-tsv.gemspec"
   spec.license       = "Apache-2.0"
 
   test_files, files  = `git ls-files -z`.split("\x0").partition do |f|
