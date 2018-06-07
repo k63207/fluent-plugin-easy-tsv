@@ -4,8 +4,8 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 Gem::Specification.new do |spec|
   spec.name    = "fluent-plugin-easy-tsv"
   spec.version = "0.1.0"
-  spec.authors = ["TODO: Write your name"]
-  spec.email   = ["TODO: Write your email"]
+  spec.authors = ["kerokero"]
+  spec.email   = ["kerokero@gmail.com"]
 
   spec.summary       = %q{It is easy to use TSV formatter.}
   spec.description   = %q{You do not need to specify keys parameter.}
